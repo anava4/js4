@@ -2,7 +2,7 @@ let user = [-1, 5, "cat", false, 10.2, true, "dog"];
 user1 = user.toString();
 
 let separate1 = sort(user);
-printObject(separate1);
+printObj(separate1);
 arrayPrint(user);
 
 function arrayPrint (param) {
@@ -10,7 +10,7 @@ function arrayPrint (param) {
     list.innerHTML = "<h2>Array:</h2>" + "<p> [" + param.toString() + "]</p>";
 }
 
-function printObject(obj){
+function printObj(obj){
     let view = document.getElementById("view");
 
     for(let property in obj){
